@@ -33,11 +33,11 @@ def main(argv):
             inputfile = ''
             opts, args = getopt.getopt(argv,"hi:",["ifile="])
         except getopt.GetoptError:
-            print ('python3 wordfreq.py -i <inputfile>')
+            print ('usage: python3 wordfreq.py -i <inputfile>')
             sys.exit(2)
         for opt, arg in opts:
             if opt == '-h':
-                print ('python3 wordfreq.py -i <inputfile>')
+                print ('usage: python3 wordfreq.py -i <inputfile>')
                 sys.exit()
             elif opt in ("-i", "--ifile"):
                 inputfile = arg
