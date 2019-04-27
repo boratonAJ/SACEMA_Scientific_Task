@@ -1,4 +1,4 @@
-# Word Frequency Counter Program
+## Word Frequency Counter Program
 
 ### Author: Ajayi Olabode
 ### Email Address: boraton2010@gmail.com)
