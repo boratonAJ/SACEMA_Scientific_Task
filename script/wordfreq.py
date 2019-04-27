@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 """
+Python 3
+Program Version: 1.0
 Ajayi Olabode
 April 25, 2019
+
 This script count the words in the files and write their frequency in their respective files
 """
 
