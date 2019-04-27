@@ -18,8 +18,8 @@ Its features include:
 
 `SACEMA_Scientific_Task` depends on the following programs and libraries:
 
- * [python](https://www.python.org/downloads/release/python-373/) (version 3.7.3) 
- * [collections](https://docs.python.org/2/library/collections.html)
+ * [Python](https://www.python.org/downloads/release/python-373/) (version 3.7.3) 
+ * [Collections](https://docs.python.org/2/library/collections.html)
  * [Python Documentation](https://docs.python.org/2/contents.html)
 
 
@@ -40,7 +40,7 @@ GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
 
 ### References:
 
-1. [SEAMS Workshop] (https://seams-workshop.gitlab.io/practical/workspace/)
+1.[SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
 
 
 
