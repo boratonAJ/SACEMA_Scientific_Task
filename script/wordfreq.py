@@ -10,14 +10,14 @@ This script count the words in the files and write their frequency in their resp
 
 from sys import argv, exit
 import sys, getopt
-from collections import defaultdict, Counter
+import collections
 
 # Reads in text files and writes out word frequency data
 # This python function will display the content of the file whose name you pass in the first argument like that:
 def readFile_Freq(argv):
     for filename in argv[1:]:
-        freq = defaultdict(int)
-        freq = Counter()
+        freq = collections.defaultdict(int)
+        freq = collections.Counter()
         for line in open(filename, encoding='utf-8'):
             words = line.strip().lower().split(' ')
             for word in words:
