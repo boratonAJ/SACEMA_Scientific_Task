@@ -23,24 +23,24 @@ Its features include:
  * [Python Documentation](https://docs.python.org/2/contents.html)
 
 
-### Important Notes:
+#### Important Notes:
 
-* The current script is designed to work with text file
+ * The current script is designed to work with text file
 
 
 
-###  Usage: Code Walk-Through Steps
+####  Usage: Code Walk-Through Steps
 
 
 ### License
 
-GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
+ GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
 
 
 
 ### References:
 
-1. [SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
+ 1. [SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
 
 
 
