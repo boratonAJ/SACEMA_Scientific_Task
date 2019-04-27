@@ -40,7 +40,7 @@ GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
 
 ### References:
 
-1.[SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
+1. [SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
 
 
 
