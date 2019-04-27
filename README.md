@@ -11,13 +11,6 @@ Its features include:
 
  * Python module function a getopt that helps you parse command-line options and arguments.
  * Libraries dependency calculation and checkpointing.
- 
-
-
-### License
-
-GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
-
 
 ### Installation
 
@@ -39,10 +32,15 @@ GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
 ###  Usage: Code Walk-Through Steps
 
 
+### License
+
+GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
+
+
 
 ### References:
 
-1. 
+1. [SEAMS Workshop] (https://seams-workshop.gitlab.io/practical/workspace/)
 
 
 
