@@ -23,7 +23,10 @@ def readFile_Freq(argv):
             for word in words:
                 freq.update([''.join(char for char in word if char.isalnum())])
         del freq['']
-        with open(filename[:-3]+'freq', 'w') as my_file:
+
+        output_filename = 'Data/output/' + filename.split("/")[2][:-3] +'freq'
+
+        with open(output_filename, 'w') as my_file:
             for word_ct in freq.most_common():
                 my_file.write(word_ct[0] + ' ' + str(word_ct[1]) + '\n')
             for word in freq.items():
