@@ -30,8 +30,8 @@ def frequency_of_words(argv):
         with open(output_filename, 'w') as my_file:
             for word_ct in freq.most_common():
                 my_file.write(word_ct[0] + ' ' + str(word_ct[1]) + '\n') # write (word_ct[0], word_ct[1]) to file
-            for word in sorted(freq): # sort by ascending letter
-                print("{0}:{1}".format(word,freq[word]))
+            for word in sorted(freq.items(), key=operator.itemgetter(1), reverse=True): #Sort by dict value - descending
+                print("{0}:{1}".format(word[0], word[1]))
 
 # Main function to run the above function and program
 def main(argv):
