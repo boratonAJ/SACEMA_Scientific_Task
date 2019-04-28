@@ -20,8 +20,8 @@ Its features include:
 
  * [Python](https://www.python.org/downloads/release/python-373/) (version 3.7.3) 
  * [Collections](https://docs.python.org/2/library/collections.html)
- * [Python Documentation](https://docs.python.org/2/contents.html)
-
+ * [Python Documentation](https://docs.python.org/2/contents.html) 
+	* New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
 
 #### Important Notes:
 
@@ -30,6 +30,17 @@ Its features include:
 
 
 ####  Usage: Code Walk-Through Steps
+
+##### The input file is a console input: Suppose the following input is supplied to the program:
+
+
+
+### Unit test and Test cases
+
+We used Python Unit test to checks if some specific parts of the function’s behaviour are correct. This make integrating the functions together with main parts much easier. 
+
+##### Please Note that: 
+Test case is a collection of unit tests which together proves that a function works as intended, inside a full range of situations in which that function may find itself and that it’s expected to handle. Test case should consider all possible kinds of input a function could receive from users, and therefore should include tests to represent each of these situations.
 
 
 ### License
