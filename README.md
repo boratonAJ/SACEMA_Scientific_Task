@@ -31,7 +31,9 @@ Its features include:
 
 ####  Usage: Code Walk-Through Steps
 
-##### The input file is a console input: Suppose the following input is supplied to the program:
+##### The input file is a console input: 
+
+Suppose the following input is supplied to the program:
 
 
 
