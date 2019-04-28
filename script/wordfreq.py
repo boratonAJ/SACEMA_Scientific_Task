@@ -5,8 +5,8 @@ Program Version: 1.0
 Ajayi Olabode
 April 25, 2019
 
-A script program to compute the frequency of the words from the input. The output is after sorting the key alphanumerically.
-Also note that this script count the words in the files and write their frequency in their respective files
+A Python script that compute the frequency of the words from the input (text file). The script count the words in the files
+and write their frequency in their respective files. The output is after sorting the key alphanumerically.
 
 """
 
