@@ -11,10 +11,11 @@ This script count the words in the files and write their frequency in their resp
 from sys import argv, exit
 import sys, getopt
 import collections
+import operator
 
 # Reads in text files and writes out word frequency data
 # This python function will display the content of the file whose name you pass in the first argument like that:
-def readFile_Freq(argv):
+def frequency_of_words(argv):
     for filename in argv[1:]:
         freq = collections.defaultdict(int)
         freq = collections.Counter()
@@ -24,14 +25,14 @@ def readFile_Freq(argv):
                 freq.update([''.join(char for char in word if char.isalnum())])
         del freq['']
 
-        output_filename = 'Data/output/' + filename.split("/")[2][:-3] +'freq'
+        output_filename = 'Data/output/' + filename.split("/")[2][:-3] +'freq' #  substring the filename (slicing)
 
         with open(output_filename, 'w') as my_file:
             for word_ct in freq.most_common():
-                my_file.write(word_ct[0] + ' ' + str(word_ct[1]) + '\n')
-            for word in freq.items():
-                if word[0] is not None:
-                    print(word)
+                my_file.write(word_ct[0] + ' ' + str(word_ct[1]) + '\n') # write (word_ct[0], word_ct[1]) to file
+            for word in sorted(freq): # sort by ascending letter
+                print("{0}:{1}".format(word,freq[word]))
+
 # Main function to run the above function and program
 def main(argv):
     while True:
@@ -48,7 +49,7 @@ def main(argv):
             elif opt in ("-i", "--ifile"):
                 inputfile = arg
                 print ('Input file is: "', inputfile)
-        return readFile_Freq(argv)
+        return frequency_of_words(argv)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
