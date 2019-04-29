@@ -2,7 +2,6 @@
 
 This repo contain solution to an assessment exercise for assessing technical skills and experience that are required for the position of Junior Researcher – Scientific Programming at the DST-NRF Centre of Excellence in Epidemiological Modelling and Analysis.
 
-
 ### Installation
 
 #### External dependencies
@@ -14,11 +13,9 @@ This repo contain solution to an assessment exercise for assessing technical ski
 * [Python Documentation](https://docs.python.org/2/contents.html) 
 * New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
 
-
 ## Getting Started
 
 ### Description
-
 
 SACEMA_Scientific_Task is a Python script program that allows you to count the frequency usage of each word in text. 
 
@@ -29,11 +26,9 @@ Its features include:
 * Python module function a getopt that helps you parse command-line options and arguments.
 * Libraries dependency calculation and checkpointing.
 
- 
 #### Important Notes:
 
 The current script is designed to work with text file
-
 
 ### Inputs & Outputs
 
@@ -58,8 +53,6 @@ File Folder for input and output do you want to search:
 
 Code explanation is located in the comments:
 
-
-
 ```
 `cd script/`
 
@@ -69,11 +62,11 @@ Example: python3 main_function.py Data/input_file/*.txt
 
 ```
 
+## Future Work: Python Testing and Continuous Integration
 
-### Unit test and Test cases
+### Test cases
 
-
-We used Python Unit test to checks if some specific parts of the function’s behaviour are correct. This make integrating the functions together with main parts much easier. 
+I plan to use Python test to checks if some specific parts of the function’s behaviour are correct. 
 
 ##### Please Note that: 
 
@@ -81,16 +74,13 @@ Test case is a collection of unit tests which together proves that a function wo
 
 Test case should consider all possible kinds of input a function could receive from users, and therefore should include tests to represent each of these situations.
 
-
 ### License
 
 GNU GENERAL PUBLIC LICENSE. See LICENSE.txt in source repository.
 
-
-
 ### References:
 
-1. [SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
+[SEAMS Workshop](https://seams-workshop.gitlab.io/practical/workspace/)
 
 
 
