@@ -20,11 +20,16 @@ This repo contain solution to an assessment exercise for assessing technical ski
 ### Description
 
 
-SACEMA_Scientific_Task is a Python script program that allows you to count the frequency usage of each word in your text. Its features include:
+SACEMA_Scientific_Task is a Python script program that allows you to count the frequency usage of each word in text. 
+
+The main script reads a text file and computes the frequency of words that appear in the text file.
+
+Its features include:
 
 * Python module function a getopt that helps you parse command-line options and arguments.
 * Libraries dependency calculation and checkpointing.
 
+ 
 #### Important Notes:
 
 The current script is designed to work with text file
@@ -51,7 +56,18 @@ File Folder for input and output do you want to search:
 
 ### Usage: How to execute the script
 
-Code explanation is located in the comments.
+Code explanation is located in the comments:
+
+
+
+```
+`cd script/`
+
+usage: python3 main_function.py [-h] [-i, --ifile, [inputfile]]
+
+Example: python3 main_function.py Data/input_file/*.txt
+
+```
 
 
 ### Unit test and Test cases
