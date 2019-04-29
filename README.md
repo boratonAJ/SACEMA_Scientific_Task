@@ -15,7 +15,7 @@ This repo contain solution to an assessment exercise for assessing technical ski
 * New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
 
 
-##  Usage: Code Walk-Through Steps
+## Getting Started
 
 ### Description
 
@@ -47,6 +47,11 @@ File Folder for input and output do you want to search:
 * `SACEMA_Scientific_Task` 			- current project folder (SACEMA_Scientific_Task).
 * `cd script/` 					- go to script folder (the folder contain `frequency_of_words.py` and `main_function.py`).
 * `cd Data/` 					- go to data folder to view the file input and output file folder.
+
+
+### Usage: How to execute the script
+
+Code explanation is located in the comments.
 
 
 ### Unit test and Test cases
