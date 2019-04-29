@@ -17,7 +17,6 @@ import time
 
 def main(argv):
     """
-
     :param argv:
     :return:
     """
