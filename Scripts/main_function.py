@@ -15,6 +15,11 @@ import sys
 from frequency_of_words import words_frequency
 
 def main(argv):
+    """
+
+    :param argv:
+    :return:
+    """
     while True:
         try:
             opts, args = getopt.getopt(argv, "hi:", ["ifile="])
