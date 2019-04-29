@@ -1,6 +1,4 @@
-### Word Frequency Counter Program
-#### Author: Ajayi Olabode
-#### Email Address: boraton2010@gmail.com
+## Word Frequency Counter Program
 
 This repo contain solution to an assessment exercise for assessing technical skills and experience that are required for the position of Junior Researcher – Scientific Programming at the DST-NRF Centre of Excellence in Epidemiological Modelling and Analysis.
 
