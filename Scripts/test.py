@@ -5,7 +5,7 @@ import time
 
 class checkingfrequencyWordsTestCase(unittest.TestCase):
 
-    def test_remove_first_space_from_tel(self):
+    def find_path(self):
         result = words_frequency("Data/input_file/11-0.txt")
         self.assertEqual(result, "11-0.txt")
         print("Passed")
