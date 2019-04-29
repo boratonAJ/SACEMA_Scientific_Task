@@ -56,7 +56,7 @@ Code explanation is located in the comments:
 ```
 `cd script/`
 
-usage: python3 main_function.py [-h] [-i, --ifile, [inputfile]]
+usage: python3 main_function.py [-h, [help]] [-i, --ifile, [inputfile]]
 
 Example: python3 main_function.py Data/input_file/*.txt
 
