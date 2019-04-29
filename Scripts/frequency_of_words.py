@@ -11,20 +11,16 @@ and write their frequency in their respective files. The output is after sorting
 """
 import collections
 import operator
-import sys
 
 def words_frequency(argv):
     for filename in argv[1:]:
-        freq = collections.defaultdict(int)
         freq = collections.Counter()
         for line in open(filename, encoding='utf-8'):
             words = line.strip().lower().split(' ')
             for word in words:
                 freq.update([''.join(char for char in word if char.isalnum())])
         del freq['']
-
         output_filename = 'Data/output/' + filename.split("/")[2][:-3] +'freq' #  substring the filename (slicing)
-
         with open(output_filename, 'w') as my_file:
             for word_ct in freq.most_common():
                 my_file.write(word_ct[0] + ' ' + str(word_ct[1]) + '\n') # write (word_ct[0], word_ct[1]) to file

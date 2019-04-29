@@ -13,6 +13,7 @@ This python function will display the content of the file whose name you pass in
 import getopt
 import sys
 from frequency_of_words import words_frequency
+import time
 
 def main(argv):
     """
@@ -37,4 +38,7 @@ def main(argv):
 
 
 if __name__ == "__main__":
+    start = time.time()
     main(sys.argv[1:])
+    print("Time Taken to Run")
+    print (time.time() - start)
